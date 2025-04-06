@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: #39FF14;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+::placeholder {
+  color: #888;
+}
+
+input, textarea {
+  color: #aaffaa;
+}
+
+textarea:focus, input:focus {
+  box-shadow: 0 0 5px #39FF14;
+}
